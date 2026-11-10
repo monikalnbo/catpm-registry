@@ -1,0 +1,8 @@
+# This repo is a package registry: .cpkg archives (tar.gz) and an index.json.
+# GitHub's language bar shows {} (empty) for it — archives and JSON are not
+# counted as a programming language, which is accurate: this repository
+# contains no source code, only artifacts served over raw.githubusercontent.
+#
+# Keep it that way explicitly rather than by accident:
+*.cpkg     linguist-generated
+index.json linguist-generated
